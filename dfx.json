@@ -18,14 +18,9 @@
       "wasm": ".azle/ticket-icp-backend/ticket-icp-backend.wasm"
     },
     "ticket-icp-frontend": {
-      "dependencies": [
-        "ticket-icp-backend"
-      ],
-      "source": [
-        "src/new-react/build/index.html"
-      ],
       "type": "assets",
-      "workspace": "new-react"
+      "source": ["src/ticket-icp-frontend/build"],
+      "build": ["echo no-build"]
     }
   },
   "defaults": {
