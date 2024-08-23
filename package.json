@@ -14,6 +14,7 @@
   "type": "module",
   "workspaces": [
     "src/ticket-icp-backend",
-    "src/ticket-icp-frontend"
+    "src/ticket-icp-frontend",
+    "src/new-react"
   ]
 }
